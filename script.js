@@ -14,15 +14,12 @@ function calculo() {
     let calculo2 = Number(peso2.value) * Number(nota2.value);
     let calculo3 = Number(peso3.value) * Number(nota3.value);
 
-    //let somanotas = Number(peso1.value) + Number(peso2.value) + Number(peso3.value);
+    let somaNotas = Number(peso1.value) + Number(peso2.value) + Number(peso3.value);
 
     let somaCalculos = calculo1 + calculo2 + calculo3;
 
     let mediaPonderada = somaCalculos / somaNotas;
-    
 
-
-
-    alert(`A media ponderada é: ${somaCalculos}`)
+    alert(`A media ponderada é: ${mediaPonderada}`)
     
 }
