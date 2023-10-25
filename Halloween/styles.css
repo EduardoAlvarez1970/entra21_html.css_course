@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('Halloween/Bungee/Bungee-Regular.ttf') format('truetype');
+}
+
+
+body{
+  background-image: url(bg-halloween.png);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'MiFuente', sans-serif;
+}
+
+
+
+#nav-bar a{
+    float: right;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 80px;
+    word-spacing: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
